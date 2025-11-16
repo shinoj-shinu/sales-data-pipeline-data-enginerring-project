@@ -44,3 +44,29 @@ Top-performing products
 Region-wise performance
 
 Monthly growth KPIs
+
+# How It Works
+
+User uploads sales file via Flask web portal.
+
+File is stored in Cloud Storage (raw bucket).
+
+Pub/Sub triggers ETL Cloud Function.
+
+Data is validated, transformed, and sent to BigQuery.
+
+Looker Studio fetches BigQuery data and updates dashboards automatically.
+
+#Purpose of This Project
+
+This project highlights real-world data engineering skills:
+
+Building scalable data pipelines
+
+Integrating cloud services
+
+Orchestrating ETL workflows
+
+Creating analytical dashboards
+
+Deploying web apps for data operations
